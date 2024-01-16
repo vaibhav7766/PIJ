@@ -1,4 +1,5 @@
-<h2>Part 2</h2>
+<h1>Part 2</h1>
+
 # Calculator Application
 
 This is a simple calculator application that allows users to perform basic arithmetic operations and statistical calculations.
