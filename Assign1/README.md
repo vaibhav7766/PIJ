@@ -1,3 +1,15 @@
+<h1>Part 1</h1>
+
+# Fibonacci Number Generator
+
+This Java program calculates and prints the first `n` Fibonacci numbers, where `n` is provided by the user.
+
+## Usage
+
+1. Compile the code:
+   ```bash
+   javac Assign1/FibonacciScanner.java
+
 <h1>Part 2</h1>
 
 # Calculator Application
