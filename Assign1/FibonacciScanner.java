@@ -1,7 +1,9 @@
-// Vaibhav Sharma
-// AIML-B2
-// 22070126125
-
+/*
+Vaibhav Sharma
+AIML-B2
+2022-26
+22070126125
+*/
 package Assign1;
 
 import java.util.Scanner;
