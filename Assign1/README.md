@@ -1,4 +1,4 @@
-<h1><center>Part 1</center></h1>
+<h1 align=center>Part 1</h1>
 
 # Fibonacci Number Generator
 
@@ -10,7 +10,7 @@ This Java program calculates and prints the first `n` Fibonacci numbers, where `
    ```bash
    javac FibonacciScanner.java
 
-<h1><center>Part 2</center></h1>
+<h1 align=center>Part 2</h1>
 
 # Calculator Application
 
