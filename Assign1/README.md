@@ -18,7 +18,7 @@ Contains a set of static methods for performing various calculations. It include
 
 ## How to Use
 
-1. Compile the Java files using a Java compiler.
+Compile the Java files using a Java compiler.
 
    ```bash
    javac Main.java UserInput.java Calculator.java
