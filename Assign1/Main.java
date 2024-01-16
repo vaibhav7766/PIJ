@@ -1,9 +1,8 @@
-/*
-Vaibhav Sharma
+/*Vaibhav Sharma
 AIML-B2
 22070126125
 */
-package Assign2;
+package Assign1;
 
 public class Main {
     public static void main(String[] args) {
