@@ -1,4 +1,8 @@
 // ArrayAndArrayList.java
+//Vaibhav Sharma
+//AIML-B2
+//2022-26
+//22070126125
 package Assign2;
 
 import java.io.IOException;
