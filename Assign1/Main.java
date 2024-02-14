@@ -22,11 +22,11 @@ public class Main {
             
             // Perform the chosen operation and display the result
             if (choice.equals("+")) {
-                System.err.println(Calculator.add(n1, n2));
+                System.out.println(Calculator.add(n1, n2));
             } else if (choice.equals("-")) {
-                System.err.println(Calculator.subtract(n1, n2));
+                System.out.println(Calculator.subtract(n1, n2));
             } else if (choice.equals("*")) {
-                System.err.println(Calculator.multiply(n1, n2));
+                System.out.println(Calculator.multiply(n1, n2));
             } else if (choice.equals("/")) {
                 System.out.println(Calculator.divide(n1, n2));
             } else if (choice.equals("^")) {

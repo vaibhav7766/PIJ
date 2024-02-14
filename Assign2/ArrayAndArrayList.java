@@ -29,11 +29,17 @@ public class ArrayAndArrayList {
         System.out.println(Arrays.toString(array));
 
         // Convert the primitive double array to an ArrayList<Double>
+        System.out.println("Primitive array to ArrayList: ");
         List<Double> arrlist = Arrays.asList(Arrays.stream(array).boxed().toArray(Double[]::new));
 
         // Print the elements of the ArrayList using a for-each loop
         for (Double element : arrlist) {
             System.out.println(element);
         }
+
+        // Convert ArrayList to array
+        System.out.println("ArrayList to array: ");
+        double[] arr = arrlist.stream().mapToDouble(Double::doubleValue).toArray();
+        System.out.println(Arrays.toString(arr));
     }
 }
