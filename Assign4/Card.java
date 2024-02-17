@@ -1,30 +1,37 @@
-//Card.java
-public class Card{
-  private int value;
+// Card.java
+public class Card {
+  private char value;
   private String suit;
 
-  public Card(int value, String suit){
-    this.value = value;
-    this.suit = suit;
+  // Constructor to initialize card with value and suit
+  public Card(char value, String suit) {
+      this.value = value;
+      this.suit = suit;
   }
 
-  public int getValue(){
-    return value;
+  // Getter method to retrieve the value of the card
+  public int getValue() {
+      return value;
   }
 
-  public String getSuit(){
-    return suit;
+  // Getter method to retrieve the suit of the card
+  public String getSuit() {
+      return suit;
   }
 
-  public void setSuit(String suit){
-    this.suit = suit;
+  // Setter method to set the suit of the card
+  public void setSuit(String suit) {
+      this.suit = suit;
   }
 
-  public void setalue(int value){
-    this.value = value;
+  // Setter method to set the value of the card
+  public void setValue(char value) {
+      this.value = value;
   }
 
-  public String toString(){
-    return value + " of " + suit;
+  // toString method to represent the card as a string
+  @Override
+  public String toString() {
+      return value + " of " + suit;
   }
 }
