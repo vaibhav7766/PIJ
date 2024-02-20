@@ -1,5 +1,5 @@
 //Growable_stk.java
-package Assign6;
+package Assign6.Part1;
 
 import java.util.ArrayList;
 

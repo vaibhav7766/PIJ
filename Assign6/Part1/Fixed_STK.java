@@ -1,6 +1,5 @@
 // Fixed_STK.java
-package Assign6;
-
+package Assign6.Part1;
 public class Fixed_STK implements Interface_STK
 {
     private int arr[];

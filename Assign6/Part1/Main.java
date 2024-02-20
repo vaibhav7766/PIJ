@@ -1,5 +1,5 @@
 //Main.java
-package Assign6;
+package Assign6.Part1;
 
 public class Main {
     public static void main(String[] args) {

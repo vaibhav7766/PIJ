@@ -1,5 +1,4 @@
-//Interface_STK.java
-package Assign6;
+package Assign6.Part1;
 
 public interface Interface_STK {
     public int pop();
