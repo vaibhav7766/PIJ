@@ -1,3 +1,4 @@
+// DecoyDuck.java
 package Assign6.Part2;
 
 // DecoyDuck class extends Duck class to represent a specific type of duck
@@ -18,5 +19,4 @@ public class DecoyDuck extends Duck {
     public void display() {
         System.out.println("I'm a decoy duck!!! lmao");
     }
-    
 }
