@@ -1,5 +1,6 @@
+// Volume.java
 package Assign5;
-
-public interface Volume extends Shaper {
-    public double volume();
+public interface Volume {
+    // Abstract method to be implemented by classes
+    double calculateVolume();
 }

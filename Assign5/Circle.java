@@ -1,22 +1,31 @@
+// Circle.java
 package Assign5;
 
-public class Circle implements Shaper{
-	private double radius;
-	
-	public void setRadius(double radius) {
-		this.radius = radius;
-	}
-	
-	public double getRadius() {
-		return radius;
-	}
-	
-	public double area() {
-		return Math.PI * Math.pow(radius, 2);
-	}
-	
-	public double perimeter() {
-		return 2 * Math.PI * radius;
-	}
-}
+import java.util.*;
 
+public class Circle extends Shape implements Volume {
+    private double radius;
+
+    @Override
+    public double calculateShape() {
+        return Math.PI * Math.pow(radius, 2);
+    }
+
+    @Override
+    public double calculatePerimeter() {
+        return 2 * Math.PI * radius;
+    }
+
+    @Override
+    public double calculateVolume() {
+        // Volume calculation for a 3D circle (sphere) is not included for simplicity
+        return 0;
+    }
+
+    // Function to get input from the user
+    public void getInput() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the radius of the circle: ");
+        this.radius = scanner.nextDouble();
+    }
+}
