@@ -1,3 +1,5 @@
 PIJ.iml
 .idea
 out
+*.docx
+*.pdf
